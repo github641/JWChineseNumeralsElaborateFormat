@@ -123,7 +123,6 @@
 				D8D7C7551E5D7C8D00704C09 /* Frameworks */,
 				D8D7C7561E5D7C8D00704C09 /* Headers */,
 				D8D7C7571E5D7C8D00704C09 /* Resources */,
-				D8D7C7C41E5D83BC00704C09 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -206,23 +205,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		D8D7C7C41E5D83BC00704C09 /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "${PROJECT_DIR}/${PROJECT_NAME}/iOS-build-framework-script.sh";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D8D7C7541E5D7C8D00704C09 /* Sources */ = {
@@ -428,6 +410,7 @@
 				D8D7C76F1E5D7C8D00704C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8D7C7701E5D7C8D00704C09 /* Build configuration list for PBXNativeTarget "ChinsesNumberalsFormatTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +419,7 @@
 				D8D7C7721E5D7C8D00704C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
