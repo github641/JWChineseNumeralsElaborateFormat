@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double ChinsesNumberalsFormatVersionNumber;
 FOUNDATION_EXPORT const unsigned char ChinsesNumberalsFormatVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ChinsesNumberalsFormat/PublicHeader.h>
-
+#import <ChinsesNumberalsFormat/JWChineseNumeralsElaborte.h>
 

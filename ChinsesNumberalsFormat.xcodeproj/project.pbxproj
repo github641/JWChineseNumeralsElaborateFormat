@@ -10,6 +10,8 @@
 		D8D7C7631E5D7C8D00704C09 /* ChinsesNumberalsFormat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D7C7591E5D7C8D00704C09 /* ChinsesNumberalsFormat.framework */; };
 		D8D7C7681E5D7C8D00704C09 /* ChinsesNumberalsFormatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D7C7671E5D7C8D00704C09 /* ChinsesNumberalsFormatTests.swift */; };
 		D8D7C76A1E5D7C8D00704C09 /* ChinsesNumberalsFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D7C75C1E5D7C8D00704C09 /* ChinsesNumberalsFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8D7C7761E5D7CED00704C09 /* JWChineseNumeralsElaborte.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D7C7741E5D7CED00704C09 /* JWChineseNumeralsElaborte.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8D7C7771E5D7CED00704C09 /* JWChineseNumeralsElaborte.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7C7751E5D7CED00704C09 /* JWChineseNumeralsElaborte.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		D8D7C7621E5D7C8D00704C09 /* ChinsesNumberalsFormatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChinsesNumberalsFormatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D7C7671E5D7C8D00704C09 /* ChinsesNumberalsFormatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinsesNumberalsFormatTests.swift; sourceTree = "<group>"; };
 		D8D7C7691E5D7C8D00704C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D7C7741E5D7CED00704C09 /* JWChineseNumeralsElaborte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWChineseNumeralsElaborte.h; sourceTree = "<group>"; };
+		D8D7C7751E5D7CED00704C09 /* JWChineseNumeralsElaborte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWChineseNumeralsElaborte.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		D8D7C75B1E5D7C8D00704C09 /* ChinsesNumberalsFormat */ = {
 			isa = PBXGroup;
 			children = (
+				D8D7C7731E5D7CED00704C09 /* Class */,
 				D8D7C75C1E5D7C8D00704C09 /* ChinsesNumberalsFormat.h */,
 				D8D7C75D1E5D7C8D00704C09 /* Info.plist */,
 			);
@@ -86,6 +91,15 @@
 			path = ChinsesNumberalsFormatTests;
 			sourceTree = "<group>";
 		};
+		D8D7C7731E5D7CED00704C09 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7C7741E5D7CED00704C09 /* JWChineseNumeralsElaborte.h */,
+				D8D7C7751E5D7CED00704C09 /* JWChineseNumeralsElaborte.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +107,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D7C7761E5D7CED00704C09 /* JWChineseNumeralsElaborte.h in Headers */,
 				D8D7C76A1E5D7C8D00704C09 /* ChinsesNumberalsFormat.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D7C7771E5D7CED00704C09 /* JWChineseNumeralsElaborte.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
